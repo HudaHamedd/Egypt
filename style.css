@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #24272e;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    color: #444;
+    text-align: center;
+    font-weight: 100;
+}
+
+.score-board {
+    border: 3px solid #fff;
+    width: 300px;
+    margin: 40px auto;
+    font-size: 40px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: #e2584d;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 6px;
+    color: #fff;
+}
+
+#user-label {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+#computer-label {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+}
+
+.result {
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    line-height: 40px;
+}
+
+.choices {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.choice {
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+
+.choice img {
+    filter: invert(100%);
+    width: 48px;
+    height: 48px;
+}
+
+#action-msg {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 40px 0;
+}
